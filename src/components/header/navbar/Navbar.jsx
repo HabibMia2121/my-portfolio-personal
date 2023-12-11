@@ -22,7 +22,7 @@ const Navbar = () => {
                             <label tabIndex={0} className="btn-ghost lg:hidden">
                                 <FaBars className="text-xl"/>
                             </label>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#1C1E2A] rounded-box w-52">
+                            <ul tabIndex={0} className=" menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#1C1E2A] rounded-box w-52">
                                 {navLink}
                             </ul>
                         </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
                     <div className="navbar-end gap-16">
                         <div className="hidden lg:flex">
-                            <ul className="gap-4 text-lg menu-horizontal px-1 ">
+                            <ul className="gap-4 text-lg menu-horizontal px-1 font-medium">
                                 {navLink}
                             </ul>
                         </div>

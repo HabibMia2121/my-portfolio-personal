@@ -1,3 +1,4 @@
 .bannerImage{
     background-image: url('../../../assets/image/banner/banner.jpg');
+    background-repeat: no-repeat;
 }

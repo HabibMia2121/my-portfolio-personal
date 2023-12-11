@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer";
 
 const Root = () => {
     return (
-        <div className="bg-[#04040F] text-[#ddddddef]">
+        <div className="bg-[#04040F] text-[#ddddddef] font-fontRoboto">
             {/* Header section here */}
             <Headers/>
 
