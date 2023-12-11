@@ -4,6 +4,24 @@ import HeaderTitle from "../headerTitle/HeaderTitle";
 import Button from "../button/Button";
 import { TiStarburst } from "react-icons/ti";
 
+// byteSkill photo here
+import byteSkll1 from '../../assets/image/byteSkill-photo/photo1.png'
+import byteSkll2 from '../../assets/image/byteSkill-photo/photo2.png'
+import byteSkll3 from '../../assets/image/byteSkill-photo/photo3.png'
+import byteSkll4 from '../../assets/image/byteSkill-photo/photo4.png'
+
+// food-donation photo here
+import foodDonation1 from '../../assets/image/food-donation-photo/photo1.png'
+import foodDonation2 from '../../assets/image/food-donation-photo/photo2.png'
+import foodDonation3 from '../../assets/image/food-donation-photo/photo3.png'
+import foodDonation4 from '../../assets/image/food-donation-photo/photo4.png'
+
+// techno-stor photo here
+import technoStor1 from '../../assets/image/techno-stor-photo/photo1.png'
+import technoStor2 from '../../assets/image/techno-stor-photo/photo2.png'
+import technoStor3 from '../../assets/image/techno-stor-photo/photo3.png'
+import technoStor4 from '../../assets/image/techno-stor-photo/photo4.png'
+
 const MyProject = () => {
     return (
         <div className=" mt-16">
@@ -20,16 +38,16 @@ const MyProject = () => {
                         <figure className="flex-1 lg:flex-initial">
                             <div className="h-72 max-w-lg pl-2 carousel carousel-vertical rounded-lg">
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3 rounded-lg inline-block" />
+                                    <img src={byteSkll1} className="w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="  w-80  my-3 rounded-lg inline-block" />
+                                    <img src={byteSkll2} className="  w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3 rounded-lg inline-block" />
+                                    <img src={byteSkll3} className="w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3  rounded-lg inline-block" />
+                                    <img src={byteSkll4} className="w-80  my-3  rounded-lg inline-block" />
                                 </div>
                             </div>
                             
@@ -74,16 +92,16 @@ const MyProject = () => {
                         <figure className="flex-1 lg:flex-initial">
                             <div className="h-72  max-w-lg pl-2 carousel carousel-vertical rounded-lg">
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3 rounded-lg inline-block" />
+                                    <img src={foodDonation1} className="w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="  w-80  my-3 rounded-lg inline-block" />
+                                    <img src={foodDonation2} className="  w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3 rounded-lg inline-block" />
+                                    <img src={foodDonation3} className="w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3  rounded-lg inline-block" />
+                                    <img src={foodDonation4} className="w-80  my-3  rounded-lg inline-block" />
                                 </div>
                             </div>
                             
@@ -120,22 +138,23 @@ const MyProject = () => {
                             </div>
                         </div>
                     </div>
+                    
                     {/* project-3 TechnoStore here */}
                     <div className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
                         {/* image here */}
                         <figure className="flex-1 lg:flex-initial">
                             <div className="h-72 max-w-lg pl-2 carousel carousel-vertical rounded-lg">
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3 rounded-lg inline-block" />
+                                    <img src={technoStor1} className="w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="  w-80  my-3 rounded-lg inline-block" />
+                                    <img src={technoStor2} className="  w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3 rounded-lg inline-block" />
+                                    <img src={technoStor3} className="w-80  my-3 rounded-lg inline-block" />
                                 </div>
                                 <div className="carousel-item h-full justify-center">
-                                    <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" className="w-80  my-3  rounded-lg inline-block" />
+                                    <img src={technoStor4} className="w-80  my-3  rounded-lg inline-block" />
                                 </div>
                             </div>
                             
