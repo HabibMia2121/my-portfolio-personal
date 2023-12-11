@@ -1,3 +1,4 @@
+import Contact from "../../components/contact/Contact";
 import MyProject from "../../components/myProject/MyProject";
 import MySkill from "../../components/mySkill/MySkill";
 
@@ -6,8 +7,10 @@ const Home = () => {
         <div className=" py-10">
             {/* my skill section here */}
             <MySkill />
-            {/* my recent project here */}
-            <MyProject/>
+            {/* my recent project section here */}
+            <MyProject />
+            {/* contact section here */}
+            <Contact/>
         </div>
     );
 };
