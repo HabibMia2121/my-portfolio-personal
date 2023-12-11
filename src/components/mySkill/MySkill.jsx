@@ -7,7 +7,7 @@ import Tools from "./tools/Tools";
 
 const MySkill = () => {
     return (
-        <div>
+        <div className="mt-16">
             {/* headerTitle section here */}
             <HeaderTitle
                 title={'My Skills'}

@@ -6,7 +6,7 @@ import { TiStarburst } from "react-icons/ti";
 
 const MyProject = () => {
     return (
-        <div className=" mt-10">
+        <div className=" mt-16">
             {/* headerTitle section here */}
             <HeaderTitle
                 title={'My Recent Project'}

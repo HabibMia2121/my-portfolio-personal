@@ -13,19 +13,13 @@ const Footer = () => {
             <div className=" bg-[#080D13] relative">
                 <Container>
                     <footer className="footer justify-center md:px-5 md:justify-normal lg:px-0 py-20  font-fontRoboto ">
-                        <aside>
-                            <div className=" flex  md:gap-1 items-center">
+                        <aside >
+                            <div className="ml-20">
                                 <img
                                     src={logo}
                                     alt="not found"
                                     className=" w-20 md:w-24 h-auto"
                                 />
-                                <Link
-                                    to="/"
-                                    className=" uppercase text-lg md:text-2xl font-bold tracking-wider text-[#55E6A5]"
-                                >
-                                    Portfolio
-                                </Link>
                             </div>
                             <p className=" font-medium text-base text-[#a2a2a2]">
                                 This website private is made for me,<br /> where I will have all the information.
@@ -78,7 +72,7 @@ const Footer = () => {
                 <Container>
                     <div className=" text-center  py-9">
                         <span className=" text-[#a2a2a2] ">
-                            Copyright © {moment().format('YYYY')}. All rights reserved by, Portfolio
+                            Copyright © {moment().format('YYYY')}. All rights reserved by Habib.
                         </span>
                     </div>
                 </Container>

@@ -29,9 +29,8 @@ const Navbar = () => {
                             </ul>
                         </div>
                         {/* logo and website name here */}
-                        <div className=" flex items-center justify-start gap-1">
+                        <div >
                             <img src={logo} className=" w-[70px] " alt="not found" />
-                            <a className="text-2xl text-[#55E6A5] font-bold ">Portfolio</a>
                         </div>
                     </div>
 
