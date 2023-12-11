@@ -21,7 +21,7 @@ const Banner = () => {
                                 <p className="py-6 max-w-xl font-medium text-base leading-7 text-[#a2a2a2]">My expertise in front-end development involves creating visually appealing and user-friendly interfaces using technologies like HTML, CSS, and JavaScript. As a MERN stack developer, you specialize in building full-stack applications using MongoDB, Express.js, React.js, and Node.js, covering both the front-end and back-end components.</p>
                                 <div>
                                     <Button
-                                        label={'Download CV'}
+                                        label={'Download Resume'}
                                         icon={<MdDownload className=' text-2xl'/>}
                                     />
                                 </div>
