@@ -6,7 +6,7 @@ import MySkill from "../../components/mySkill/MySkill";
 
 const Home = () => {
     return (
-        <div className=" py-10">
+        <div className=" py-10" >
             {/* about me section here */}
             <About />
             {/* education and experience here */}

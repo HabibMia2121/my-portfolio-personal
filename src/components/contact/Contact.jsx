@@ -3,7 +3,7 @@ import HeaderTitle from "../headerTitle/HeaderTitle";
 
 const Contact = () => {
     return (
-        <div className="mt-16 mb-5">
+        <div className="mt-16 mb-5" id="contact">
             {/* headerTitle section here */}
             <HeaderTitle
                 title={'Contact Me'}

@@ -1,18 +1,42 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import Container from "../../container/Container";
 import './Navbar.css'
 import logo from '../../../assets/image/logo.png'
 import { FaBars } from "react-icons/fa6";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useState } from 'react'
 
 
 
 const Navbar = () => {
+    const [active, setActive] = useState('');
+
+    const handleHome = clickMenu => {
+        setActive(clickMenu);
+    }
+    console.log(active);
     const navLink = <>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/about'>About</NavLink></li>
-        <li><NavLink to='/skills'>Skills</NavLink></li>
-        <li><NavLink to='/project'>My Project</NavLink></li>
-        <li><NavLink to='/contact'>Contact</NavLink></li>
+        <AnchorLink href='#home'
+            onClick={() => handleHome('home')}
+            className={(active === 'home' || active == '') && 'active' }
+
+        >Home</AnchorLink>
+        <AnchorLink href='#about'
+            onClick={() => handleHome('about')}
+            className={active === 'about' && 'active'}
+        >About</AnchorLink>
+        <AnchorLink href='#skills'
+            onClick={() => handleHome('skills')}
+            className={active === 'skills' && 'active'}
+        >Skills</AnchorLink>
+        <AnchorLink href='#project'
+            onClick={() => handleHome('project')}
+            className={active === 'project' && 'active'}
+        >My Project</AnchorLink>
+        <AnchorLink href='#contact'
+            onClick={() => handleHome('contact')}
+            className={active === 'contact' && 'active'}
+        >Contact</AnchorLink>
     </>
 
     return (

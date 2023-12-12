@@ -4,7 +4,7 @@ const EducationExperience = () => {
     return (
         <div className="my-20">
             <Container>
-                <div className=" flex flex-col gap-10 lg:gap-0 md:flex-row md:items-center md:justify-evenly">
+                <div className=" flex flex-col gap-10 lg:gap-0 md:flex-row md:items-center md:justify-evenly" data-aos="zoom-in">
                     <div>
                         {/* title here */}
                         <h2 className="font-bold text-xl text-[#55E6A5]">My Education: </h2>

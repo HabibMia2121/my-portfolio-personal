@@ -24,7 +24,7 @@ import technoStor4 from '../../assets/image/techno-stor-photo/photo4.png'
 
 const MyProject = () => {
     return (
-        <div className=" mt-16">
+        <div className=" mt-16" id="project">
             {/* headerTitle section here */}
             <HeaderTitle
                 title={'My Recent Project'}
@@ -33,7 +33,9 @@ const MyProject = () => {
             <Container>
                 <div className=" mt-10 space-y-10">
                     {/* project-1 byteSkill here */}
-                    <div className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
                         {/* image here */}
                         <figure className="flex-1 lg:flex-initial">
                             <div className="h-72 max-w-lg pl-2 carousel carousel-vertical rounded-lg">
@@ -87,7 +89,9 @@ const MyProject = () => {
                     </div>
 
                     {/* project-2 foodDonation here */}
-                    <div className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000" className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
                         {/* image here */}
                         <figure className="flex-1 lg:flex-initial">
                             <div className="h-72  max-w-lg pl-2 carousel carousel-vertical rounded-lg">
@@ -140,7 +144,9 @@ const MyProject = () => {
                     </div>
                     
                     {/* project-3 TechnoStore here */}
-                    <div className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="4000" className="card flex-col md:flex-row card-side  border border-[#55E6A5]">
                         {/* image here */}
                         <figure className="flex-1 lg:flex-initial">
                             <div className="h-72 max-w-lg pl-2 carousel carousel-vertical rounded-lg">

@@ -7,7 +7,7 @@ import Tools from "./tools/Tools";
 
 const MySkill = () => {
     return (
-        <div className="mt-16">
+        <div className="mt-16" id="skills">
             {/* headerTitle section here */}
             <HeaderTitle
                 title={'My Skills'}
@@ -16,7 +16,7 @@ const MySkill = () => {
             <Container>
                 <div className=" mt-10">
                     {/* expert skill here */}
-                    <div>
+                    <div >
                         <h2 className="font-bold text-xl text-[#55E6A5]">Expert:</h2>
                         <Expert />
                     </div>
