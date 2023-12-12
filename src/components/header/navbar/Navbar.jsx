@@ -14,29 +14,40 @@ const Navbar = () => {
     const handleHome = clickMenu => {
         setActive(clickMenu);
     }
-    console.log(active);
     const navLink = <>
-        <AnchorLink href='#home'
-            onClick={() => handleHome('home')}
-            className={(active === 'home' || active == '') && 'active' }
+        <li>
+            <AnchorLink href='#home'
+                onClick={() => handleHome('home')}
+                className={(active === 'home' || active == '') && 'active'}
 
-        >Home</AnchorLink>
-        <AnchorLink href='#about'
-            onClick={() => handleHome('about')}
-            className={active === 'about' && 'active'}
-        >About</AnchorLink>
-        <AnchorLink href='#skills'
-            onClick={() => handleHome('skills')}
-            className={active === 'skills' && 'active'}
-        >Skills</AnchorLink>
-        <AnchorLink href='#project'
-            onClick={() => handleHome('project')}
-            className={active === 'project' && 'active'}
-        >My Project</AnchorLink>
-        <AnchorLink href='#contact'
-            onClick={() => handleHome('contact')}
-            className={active === 'contact' && 'active'}
-        >Contact</AnchorLink>
+            >Home</AnchorLink>
+        </li>
+
+        <li>
+            <AnchorLink href='#about'
+                onClick={() => handleHome('about')}
+                className={active === 'about' && 'active'}
+            >About</AnchorLink>
+        </li>
+
+        <li>
+            <AnchorLink href='#skills'
+                onClick={() => handleHome('skills')}
+                className={active === 'skills' && 'active'}
+            >Skills</AnchorLink>
+        </li>
+        <li>
+            <AnchorLink href='#project'
+                onClick={() => handleHome('project')}
+                className={active === 'project' && 'active'}
+            >My Project</AnchorLink>
+        </li>
+        <li>
+            <AnchorLink href='#contact'
+                onClick={() => handleHome('contact')}
+                className={active === 'contact' && 'active'}
+            >Contact</AnchorLink>
+        </li>
     </>
 
     return (
