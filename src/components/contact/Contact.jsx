@@ -83,7 +83,7 @@ const Contact = () => {
                     {/* map here */}
                     <div className="lg:flex-1 text-center">
                         <iframe
-                            className=" rounded-xl inline-block h-[350px] w-[400px] md:w-[600px]"
+                            className=" rounded-xl inline-block h-[350px] w-[350px] md:w-[600px]"
                             src="https://maps.google.com/maps?q=23%C2%B036'24.8%22N%2090%C2%B044'38.3%22E&t=&z=15&ie=UTF8&iwloc=&output=embed"
                         ></iframe>
                     </div>
